@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mert\\source\\repos\\GembosAPI\\GembosAPI\\GembosAPI.csproj": {}
+    "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\GembosAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mert\\source\\repos\\GembosAPI\\GembosAPI\\GembosAPI.csproj": {
+    "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\GembosAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mert\\source\\repos\\GembosAPI\\GembosAPI\\GembosAPI.csproj",
+        "projectUniqueName": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\GembosAPI.csproj",
         "projectName": "GembosAPI",
-        "projectPath": "C:\\Users\\Mert\\source\\repos\\GembosAPI\\GembosAPI\\GembosAPI.csproj",
-        "packagesPath": "C:\\Users\\Mert\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mert\\source\\repos\\GembosAPI\\GembosAPI\\obj\\",
+        "projectPath": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\GembosAPI.csproj",
+        "packagesPath": "C:\\Users\\moral\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Mert\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\moral\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -70,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
