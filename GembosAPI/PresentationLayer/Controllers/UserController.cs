@@ -7,5 +7,6 @@ namespace GembosAPI.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
+
     }
 }
