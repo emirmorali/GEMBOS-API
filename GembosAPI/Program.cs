@@ -1,3 +1,8 @@
+using GembosAPI.BusinessLayer.ServiceInterfaces;
+using GembosAPI.BusinessLayer.Services;
+using GembosAPI.DataAccessLayer.Repositories;
+using GembosAPI.DataAccessLayer.RepositoryInterfaces;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +11,15 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<IUserService, UserService>();
+
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults
+})
 
 var app = builder.Build();
 

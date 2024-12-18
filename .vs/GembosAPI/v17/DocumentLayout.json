@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "E:\\GitHub Repositories\\GEMBOS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|e:\\github repositories\\gembos\\gembosapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|e:\\github repositories\\gembos\\gembosapi\\dataaccesslayer\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\dataaccesslayer\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|e:\\github repositories\\gembos\\gembosapi\\entitylayer\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\entitylayer\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|e:\\github repositories\\gembos\\gembosapi\\entitylayer\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\entitylayer\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|e:\\github repositories\\gembos\\gembosapi\\dataaccesslayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\dataaccesslayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|e:\\github repositories\\gembos\\gembosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|e:\\github repositories\\gembos\\gembosapi\\dataaccesslayer\\repositoryinterfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\dataaccesslayer\\repositoryinterfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|e:\\github repositories\\gembos\\gembosapi\\dataaccesslayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\dataaccesslayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|e:\\github repositories\\gembos\\gembosapi\\businesslayer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|e:\\github repositories\\gembos\\gembosapi\\presentationlayer\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\presentationlayer\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|e:\\github repositories\\gembos\\gembosapi\\entitylayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\entitylayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,79 +47,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AppDbcontext.cs",
-              "DocumentMoniker": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\DataAccessLayer\\Contexts\\AppDbcontext.cs",
-              "RelativeDocumentMoniker": "GembosAPI\\DataAccessLayer\\Contexts\\AppDbcontext.cs",
-              "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\DataAccessLayer\\Contexts\\AppDbcontext.cs",
-              "RelativeToolTip": "GembosAPI\\DataAccessLayer\\Contexts\\AppDbcontext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T13:42:55.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegisterDTO.cs",
-              "DocumentMoniker": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\EntityLayer\\DTOs\\RegisterDTO.cs",
-              "RelativeDocumentMoniker": "GembosAPI\\EntityLayer\\DTOs\\RegisterDTO.cs",
-              "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\EntityLayer\\DTOs\\RegisterDTO.cs",
-              "RelativeToolTip": "GembosAPI\\EntityLayer\\DTOs\\RegisterDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T13:40:29.375Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "GembosAPI\\appsettings.json",
+              "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\appsettings.json",
+              "RelativeToolTip": "GembosAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-18T15:07:42.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\EntityLayer\\DTOs\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "GembosAPI\\EntityLayer\\DTOs\\LoginDTO.cs",
-              "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\EntityLayer\\DTOs\\LoginDTO.cs",
-              "RelativeToolTip": "GembosAPI\\EntityLayer\\DTOs\\LoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Title": "AppDbcontext.cs",
+              "DocumentMoniker": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\DataAccessLayer\\Contexts\\AppDbcontext.cs",
+              "RelativeDocumentMoniker": "GembosAPI\\DataAccessLayer\\Contexts\\AppDbcontext.cs",
+              "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\DataAccessLayer\\Contexts\\AppDbcontext.cs",
+              "RelativeToolTip": "GembosAPI\\DataAccessLayer\\Contexts\\AppDbcontext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T13:40:22.77Z",
+              "WhenOpened": "2024-12-18T15:00:50.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\DataAccessLayer\\RepositoryInterfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "GembosAPI\\DataAccessLayer\\RepositoryInterfaces\\IUserRepository.cs",
-              "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\DataAccessLayer\\RepositoryInterfaces\\IUserRepository.cs",
-              "RelativeToolTip": "GembosAPI\\DataAccessLayer\\RepositoryInterfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\Program.cs",
+              "RelativeDocumentMoniker": "GembosAPI\\Program.cs",
+              "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\Program.cs",
+              "RelativeToolTip": "GembosAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T13:39:55.429Z",
+              "WhenOpened": "2024-12-18T14:54:58.294Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\DataAccessLayer\\RepositoryInterfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "GembosAPI\\DataAccessLayer\\RepositoryInterfaces\\IUserRepository.cs",
+              "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\DataAccessLayer\\RepositoryInterfaces\\IUserRepository.cs",
+              "RelativeToolTip": "GembosAPI\\DataAccessLayer\\RepositoryInterfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T14:20:59.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\DataAccessLayer\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "GembosAPI\\DataAccessLayer\\Repositories\\UserRepository.cs",
               "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\DataAccessLayer\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "GembosAPI\\DataAccessLayer\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T13:39:38.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\BusinessLayer\\ServiceInterfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "GembosAPI\\BusinessLayer\\ServiceInterfaces\\IUserService.cs",
-              "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\BusinessLayer\\ServiceInterfaces\\IUserService.cs",
-              "RelativeToolTip": "GembosAPI\\BusinessLayer\\ServiceInterfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T13:37:48.625Z",
+              "WhenOpened": "2024-12-18T14:20:58.607Z",
               "EditorCaption": ""
             },
             {
@@ -134,9 +117,22 @@
               "RelativeDocumentMoniker": "GembosAPI\\BusinessLayer\\Services\\UserService.cs",
               "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\BusinessLayer\\Services\\UserService.cs",
               "RelativeToolTip": "GembosAPI\\BusinessLayer\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T13:37:32.034Z",
+              "WhenOpened": "2024-12-18T14:16:18.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\BusinessLayer\\ServiceInterfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "GembosAPI\\BusinessLayer\\ServiceInterfaces\\IUserService.cs",
+              "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\BusinessLayer\\ServiceInterfaces\\IUserService.cs",
+              "RelativeToolTip": "GembosAPI\\BusinessLayer\\ServiceInterfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T14:15:01.781Z",
               "EditorCaption": ""
             },
             {
@@ -147,22 +143,9 @@
               "RelativeDocumentMoniker": "GembosAPI\\PresentationLayer\\Controllers\\UserController.cs",
               "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\PresentationLayer\\Controllers\\UserController.cs",
               "RelativeToolTip": "GembosAPI\\PresentationLayer\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T13:32:36.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\EntityLayer\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "GembosAPI\\EntityLayer\\Entities\\User.cs",
-              "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\EntityLayer\\Entities\\User.cs",
-              "RelativeToolTip": "GembosAPI\\EntityLayer\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T13:30:22.048Z",
+              "WhenOpened": "2024-12-18T14:03:37.646Z",
               "EditorCaption": ""
             }
           ]
