@@ -1,7 +1,9 @@
 using GembosAPI.BusinessLayer.ServiceInterfaces;
 using GembosAPI.BusinessLayer.Services;
+using GembosAPI.DataAccessLayer.Contexts;
 using GembosAPI.DataAccessLayer.Repositories;
 using GembosAPI.DataAccessLayer.RepositoryInterfaces;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,14 +14,15 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddDbContext<AppDbcontext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 builder.Services.AddAuthentication(options =>
 {
-    options.DefaultAuthenticateScheme = JwtBearerDefaults
-})
+    //options.DefaultAuthenticateScheme = JwtBearerDefaults
+});
 
 var app = builder.Build();
 

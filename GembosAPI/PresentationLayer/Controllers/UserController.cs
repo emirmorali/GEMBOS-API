@@ -16,7 +16,7 @@ namespace GembosAPI.Controllers
         {
             _userService = userService;
         }
-
+        /*
         [HttpPost("Login")]
         [AllowAnonymous]
         public async Task<IActionResult> Login([FromBody] LoginDTO loginDTO)
@@ -43,6 +43,6 @@ namespace GembosAPI.Controllers
         {
             var newUser = await _userService.RegisterAsync(registerDTO);
             return Ok(newUser);
-        }
+        }*/
     }
 }

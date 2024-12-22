@@ -13,10 +13,11 @@ namespace GembosAPI.DataAccessLayer.Repositories
             _dbcontext = dbcontext;
         }
 
+        /*
         public async Task<User> GetUserByPhoneNumberAsync(string phoneNumber)
         {
             return await _dbcontext.Users.SingleOrDefaultAsync(x => x.PhoneNumber == phoneNumber);
-        }
+        }*/
 
         public async Task AddUserAsync(User user)
         {
