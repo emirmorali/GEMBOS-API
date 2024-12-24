@@ -1,6 +1,7 @@
 ﻿using GembosAPI.DataAccessLayer.Contexts;
 using GembosAPI.DataAccessLayer.RepositoryInterfaces;
 using GembosAPI.EntityLayer.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace GembosAPI.DataAccessLayer.Repositories
 {
@@ -12,13 +13,10 @@ namespace GembosAPI.DataAccessLayer.Repositories
         {
             _dbcontext = dbcontext;
         }
-
-        /*
         public async Task<User> GetUserByPhoneNumberAsync(string phoneNumber)
         {
             return await _dbcontext.Users.SingleOrDefaultAsync(x => x.PhoneNumber == phoneNumber);
-        }*/
-
+        }
         public async Task AddUserAsync(User user)
         {
             await _dbcontext.Users.AddAsync(user);
