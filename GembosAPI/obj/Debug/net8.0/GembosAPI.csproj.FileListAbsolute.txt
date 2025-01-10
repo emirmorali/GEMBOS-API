@@ -340,3 +340,5 @@ C:\Users\Mert\Documents\GitHub\GEMBOS\GembosAPI\obj\Debug\net8.0\refint\GembosAP
 C:\Users\Mert\Documents\GitHub\GEMBOS\GembosAPI\obj\Debug\net8.0\GembosAPI.pdb
 C:\Users\Mert\Documents\GitHub\GEMBOS\GembosAPI\obj\Debug\net8.0\GembosAPI.genruntimeconfig.cache
 C:\Users\Mert\Documents\GitHub\GEMBOS\GembosAPI\obj\Debug\net8.0\ref\GembosAPI.dll
+E:\GitHub Repositories\GEMBOS\GembosAPI\bin\Debug\net8.0\AutoMapper.dll
+E:\GitHub Repositories\GEMBOS\GembosAPI\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

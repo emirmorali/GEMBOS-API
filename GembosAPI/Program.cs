@@ -3,6 +3,7 @@ using GembosAPI.BusinessLayer.Services;
 using GembosAPI.DataAccessLayer.Contexts;
 using GembosAPI.DataAccessLayer.Repositories;
 using GembosAPI.DataAccessLayer.RepositoryInterfaces;
+using GembosAPI.EntityLayer.MapperProfiles;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -21,6 +22,11 @@ builder.Services.AddDbContext<AppDbcontext>(options => options.UseSqlServer(buil
 
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+
+builder.Services.AddScoped<IMessageService, MessageService>();
+builder.Services.AddScoped<IMessageRepository, MessageRepository>();
+
+builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 
 builder.Services.AddAuthentication(options =>
 {
