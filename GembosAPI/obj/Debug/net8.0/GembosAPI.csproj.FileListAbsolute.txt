@@ -342,3 +342,4 @@ C:\Users\Mert\Documents\GitHub\GEMBOS\GembosAPI\obj\Debug\net8.0\GembosAPI.genru
 C:\Users\Mert\Documents\GitHub\GEMBOS\GembosAPI\obj\Debug\net8.0\ref\GembosAPI.dll
 E:\GitHub Repositories\GEMBOS\GembosAPI\bin\Debug\net8.0\AutoMapper.dll
 E:\GitHub Repositories\GEMBOS\GembosAPI\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\GitHub Repositories\GEMBOS\GembosAPI\bin\Debug\net8.0\BCrypt.Net-Next.dll

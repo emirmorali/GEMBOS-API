@@ -1,4 +1,5 @@
-﻿using GembosAPI.BusinessLayer.ServiceInterfaces;
+﻿using BCrypt.Net;
+using GembosAPI.BusinessLayer.ServiceInterfaces;
 using GembosAPI.DataAccessLayer.RepositoryInterfaces;
 using GembosAPI.EntityLayer.DTOs;
 using GembosAPI.EntityLayer.Entities;
@@ -24,7 +25,7 @@ namespace GembosAPI.BusinessLayer.Services
         {
             var user = await _userRepository.GetUserByPhoneNumberAsync(loginDTO.PhoneNumber);
 
-            if (user == null || !loginDTO.Password.Equals(user.Password))
+            if (user == null || !BCrypt.Net.BCrypt.Verify(loginDTO.Password, user.Password))
             {
                 return null;
             }
@@ -59,7 +60,7 @@ namespace GembosAPI.BusinessLayer.Services
             {
                 ID = Guid.NewGuid(),
                 PhoneNumber = registerDTO.PhoneNumber,
-                Password = registerDTO.Password
+                Password = BCrypt.Net.BCrypt.HashPassword(registerDTO.Password)
             };
 
             await _userRepository.AddUserAsync(newUser);

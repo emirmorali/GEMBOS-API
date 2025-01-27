@@ -3,40 +3,12 @@
   "WorkspaceRootPath": "E:\\GitHub Repositories\\GEMBOS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|e:\\github repositories\\gembos\\gembosapi\\presentationlayer\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\presentationlayer\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|e:\\github repositories\\gembos\\gembosapi\\entitylayer\\mapperprofiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\entitylayer\\mapperprofiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|e:\\github repositories\\gembos\\gembosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|e:\\github repositories\\gembos\\gembosapi\\businesslayer\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\businesslayer\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|e:\\github repositories\\gembos\\gembosapi\\businesslayer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\businesslayer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|e:\\github repositories\\gembos\\gembosapi\\businesslayer\\serviceinterfaces\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\businesslayer\\serviceinterfaces\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|e:\\github repositories\\gembos\\gembosapi\\dataaccesslayer\\repositoryinterfaces\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\dataaccesslayer\\repositoryinterfaces\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|e:\\github repositories\\gembos\\gembosapi\\dataaccesslayer\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\dataaccesslayer\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|e:\\github repositories\\gembos\\gembosapi\\presentationlayer\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\presentationlayer\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|e:\\github repositories\\gembos\\gembosapi\\businesslayer\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\businesslayer\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,123 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\EntityLayer\\MapperProfiles\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "GembosAPI\\EntityLayer\\MapperProfiles\\MappingProfile.cs",
-              "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\EntityLayer\\MapperProfiles\\MappingProfile.cs",
-              "RelativeToolTip": "GembosAPI\\EntityLayer\\MapperProfiles\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T18:32:48.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\BusinessLayer\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "GembosAPI\\BusinessLayer\\Services\\UserService.cs",
-              "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\BusinessLayer\\Services\\UserService.cs",
-              "RelativeToolTip": "GembosAPI\\BusinessLayer\\Services\\UserService.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowD4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T18:27:54.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\Program.cs",
-              "RelativeDocumentMoniker": "GembosAPI\\Program.cs",
-              "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\Program.cs",
-              "RelativeToolTip": "GembosAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T18:20:06.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\PresentationLayer\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "GembosAPI\\PresentationLayer\\Controllers\\UserController.cs",
-              "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\PresentationLayer\\Controllers\\UserController.cs",
-              "RelativeToolTip": "GembosAPI\\PresentationLayer\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T18:17:54.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IMessageService.cs",
-              "DocumentMoniker": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\BusinessLayer\\ServiceInterfaces\\IMessageService.cs",
-              "RelativeDocumentMoniker": "GembosAPI\\BusinessLayer\\ServiceInterfaces\\IMessageService.cs",
-              "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\BusinessLayer\\ServiceInterfaces\\IMessageService.cs",
-              "RelativeToolTip": "GembosAPI\\BusinessLayer\\ServiceInterfaces\\IMessageService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T16:15:30.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MessageService.cs",
-              "DocumentMoniker": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\BusinessLayer\\Services\\MessageService.cs",
-              "RelativeDocumentMoniker": "GembosAPI\\BusinessLayer\\Services\\MessageService.cs",
-              "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\BusinessLayer\\Services\\MessageService.cs",
-              "RelativeToolTip": "GembosAPI\\BusinessLayer\\Services\\MessageService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T16:15:28.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IMessageRepository.cs",
-              "DocumentMoniker": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\DataAccessLayer\\RepositoryInterfaces\\IMessageRepository.cs",
-              "RelativeDocumentMoniker": "GembosAPI\\DataAccessLayer\\RepositoryInterfaces\\IMessageRepository.cs",
-              "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\DataAccessLayer\\RepositoryInterfaces\\IMessageRepository.cs",
-              "RelativeToolTip": "GembosAPI\\DataAccessLayer\\RepositoryInterfaces\\IMessageRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T16:15:25.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "MessageRepository.cs",
               "DocumentMoniker": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\DataAccessLayer\\Repositories\\MessageRepository.cs",
               "RelativeDocumentMoniker": "GembosAPI\\DataAccessLayer\\Repositories\\MessageRepository.cs",
               "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\DataAccessLayer\\Repositories\\MessageRepository.cs",
               "RelativeToolTip": "GembosAPI\\DataAccessLayer\\Repositories\\MessageRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T16:15:24.46Z",
+              "WhenOpened": "2025-01-27T23:08:20.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MessageController.cs",
-              "DocumentMoniker": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\PresentationLayer\\Controllers\\MessageController.cs",
-              "RelativeDocumentMoniker": "GembosAPI\\PresentationLayer\\Controllers\\MessageController.cs",
-              "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\PresentationLayer\\Controllers\\MessageController.cs",
-              "RelativeToolTip": "GembosAPI\\PresentationLayer\\Controllers\\MessageController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAiwCkAAABZAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MessageService.cs",
+              "DocumentMoniker": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\BusinessLayer\\Services\\MessageService.cs",
+              "RelativeDocumentMoniker": "GembosAPI\\BusinessLayer\\Services\\MessageService.cs",
+              "ToolTip": "E:\\GitHub Repositories\\GEMBOS\\GembosAPI\\BusinessLayer\\Services\\MessageService.cs",
+              "RelativeToolTip": "GembosAPI\\BusinessLayer\\Services\\MessageService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA9wDkAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T16:15:14.592Z",
+              "WhenOpened": "2025-01-27T23:07:01.601Z",
               "EditorCaption": ""
             }
           ]

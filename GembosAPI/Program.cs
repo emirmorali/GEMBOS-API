@@ -1,5 +1,6 @@
 using GembosAPI.BusinessLayer.ServiceInterfaces;
 using GembosAPI.BusinessLayer.Services;
+using GembosAPI.BusinessLayer.Settings;
 using GembosAPI.DataAccessLayer.Contexts;
 using GembosAPI.DataAccessLayer.Repositories;
 using GembosAPI.DataAccessLayer.RepositoryInterfaces;
@@ -20,11 +21,17 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<AppDbcontext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Bind EncryptionSettings from appsettings.json, to get encrytion key and IV
+builder.Services.Configure<EncryptionSettings>(
+    builder.Configuration.GetSection("EncryptionSettings"));
+
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 builder.Services.AddScoped<IMessageService, MessageService>();
 builder.Services.AddScoped<IMessageRepository, MessageRepository>();
+
+builder.Services.AddSingleton<IAesCryptographyService, AesCryptographyService>();
 
 builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 

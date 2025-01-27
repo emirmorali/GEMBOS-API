@@ -45,7 +45,12 @@ namespace GembosAPI.Controllers
 
             if(newUser == null)
             {
-                return BadRequest();
+                var errorResponse = new
+                {
+                    Code = 5001,
+                    Message = "An unexpected error has occured.",
+                };
+                return BadRequest(errorResponse);
             }
 
             return Ok(newUser);
