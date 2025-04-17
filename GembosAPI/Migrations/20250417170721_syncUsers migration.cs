@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace GembosAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialMigration : Migration
+    public partial class syncUsersmigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -15,13 +15,14 @@ namespace GembosAPI.Migrations
                 name: "Users",
                 columns: table => new
                 {
-                    ID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PhoneNumber = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Surname = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Password = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Users", x => x.ID);
+                    table.PrimaryKey("PK_Users", x => x.PhoneNumber);
                 });
 
             migrationBuilder.CreateTable(
@@ -30,8 +31,8 @@ namespace GembosAPI.Migrations
                 {
                     ID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Body = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    SenderID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    ReceiverID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    SenderID = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    ReceiverID = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     TimeStamp = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
@@ -41,13 +42,13 @@ namespace GembosAPI.Migrations
                         name: "FK_Messages_Users_ReceiverID",
                         column: x => x.ReceiverID,
                         principalTable: "Users",
-                        principalColumn: "ID",
+                        principalColumn: "PhoneNumber",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Messages_Users_SenderID",
                         column: x => x.SenderID,
                         principalTable: "Users",
-                        principalColumn: "ID",
+                        principalColumn: "PhoneNumber",
                         onDelete: ReferentialAction.Restrict);
                 });
 

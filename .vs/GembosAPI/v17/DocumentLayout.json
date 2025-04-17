@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|c:\\users\\mert\\documents\\github\\gembos\\gembosapi\\dataaccesslayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\dataaccesslayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|c:\\users\\mert\\documents\\github\\gembos\\gembosapi\\businesslayer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\businesslayer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|c:\\users\\mert\\documents\\github\\gembos\\gembosapi\\presentationlayer\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\presentationlayer\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|c:\\users\\mert\\documents\\github\\gembos\\gembosapi\\entitylayer\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\entitylayer\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|c:\\users\\mert\\documents\\github\\gembos\\gembosapi\\entitylayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\entitylayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,66 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\DataAccessLayer\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "GembosAPI\\DataAccessLayer\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\DataAccessLayer\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "GembosAPI\\DataAccessLayer\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwA0AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T11:49:54.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\EntityLayer\\DTOs\\UserDTO.cs",
-              "RelativeDocumentMoniker": "GembosAPI\\EntityLayer\\DTOs\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\EntityLayer\\DTOs\\UserDTO.cs",
-              "RelativeToolTip": "GembosAPI\\EntityLayer\\DTOs\\UserDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T11:49:25.047Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\BusinessLayer\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "GembosAPI\\BusinessLayer\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\BusinessLayer\\Services\\UserService.cs",
-              "RelativeToolTip": "GembosAPI\\BusinessLayer\\Services\\UserService.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAawEoAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T11:43:04.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\PresentationLayer\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "GembosAPI\\PresentationLayer\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\PresentationLayer\\Controllers\\UserController.cs",
               "RelativeToolTip": "GembosAPI\\PresentationLayer\\Controllers\\UserController.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAgwD8AAAAYAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAkwEYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T11:38:34.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\EntityLayer\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "GembosAPI\\EntityLayer\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\EntityLayer\\Entities\\User.cs",
-              "RelativeToolTip": "GembosAPI\\EntityLayer\\Entities\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T11:31:23.596Z",
+              "WhenOpened": "2025-04-17T17:09:12.602Z",
               "EditorCaption": ""
             }
           ]

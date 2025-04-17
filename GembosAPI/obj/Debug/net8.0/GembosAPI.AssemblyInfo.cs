@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GembosAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+771a9306ca59a9c339f96381e32e4a7b6dbbbdae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+745a5a1d16408271fdc9c878b53f6ad321019358")]
 [assembly: System.Reflection.AssemblyProductAttribute("GembosAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GembosAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -32,7 +32,7 @@ namespace GembosAPI.PresentationLayer.Controllers
         }
 
         [HttpGet("GetAllMessages")]
-        public async Task<IActionResult> GetMessages(Guid senderId, Guid receiverId)
+        public async Task<IActionResult> GetMessages(string senderId, string receiverId)
         {
             var messages = await _service.GetMessagesAsync(senderId, receiverId);
             return Ok(messages);
