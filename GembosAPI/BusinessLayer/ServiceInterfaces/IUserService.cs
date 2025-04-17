@@ -5,7 +5,8 @@ namespace GembosAPI.BusinessLayer.ServiceInterfaces
 {
     public interface IUserService
     {
-        Task<string> LoginAsync(LoginDTO loginDTO);
-        Task<User> RegisterAsync(RegisterDTO registerDTO);
+        Task<string> LoginAsync(LoginDTO loginDto);
+        Task<User> RegisterAsync(RegisterDTO registerDto);
+        Task<bool> SyncUserAsync(UserDTO userDto);
     }
 }

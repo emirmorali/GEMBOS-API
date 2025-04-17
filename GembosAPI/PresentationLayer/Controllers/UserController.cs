@@ -55,5 +55,16 @@ namespace GembosAPI.Controllers
 
             return Ok(newUser);
         }
+
+        [HttpPost("SyncUser")]
+        public async Task<IActionResult> SyncUser([FromBody] UserDTO userDto)
+        {
+            var success = await _userService.SyncUserAsync(userDto);
+
+            if (!success)
+                return BadRequest("User already exists or error occurred.");
+
+            return Ok("User synced successfully.");
+        }
     }
 }
