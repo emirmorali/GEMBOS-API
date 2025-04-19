@@ -31,7 +31,7 @@ namespace GembosAPI.BusinessLayer.Services
             return _mapper.Map<MessageDTO>(message);
         }
 
-        public async Task<IEnumerable<MessageDTO>> GetMessagesAsync(Guid senderId, Guid receiverId)
+        public async Task<IEnumerable<MessageDTO>> GetMessagesAsync(String senderId, String receiverId)
         {
             var messages = await _repository.GetMessagesAsync(senderId, receiverId);
             foreach (var message in messages) {

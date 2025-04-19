@@ -37,7 +37,7 @@ namespace GembosAPI.BusinessLayer.Services
             {
                 Subject = new ClaimsIdentity(new[]
                 {
-                    new Claim(ClaimTypes.Name, user.ID.ToString())
+                    new Claim(ClaimTypes.Name, user.PhoneNumber)
                 }),
                 Expires = DateTime.UtcNow.AddHours(1),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
@@ -58,14 +58,34 @@ namespace GembosAPI.BusinessLayer.Services
 
             var newUser = new User
             {
-                ID = Guid.NewGuid(),
                 PhoneNumber = registerDTO.PhoneNumber,
-                Password = BCrypt.Net.BCrypt.HashPassword(registerDTO.Password)
+                Password = BCrypt.Net.BCrypt.HashPassword(registerDTO.Password),
+                Name = registerDTO.Name,
+                Surname = registerDTO.Surname
             };
 
             await _userRepository.AddUserAsync(newUser);
-
             return newUser;
+        }
+
+        public async Task<bool> SyncUserAsync(UserDTO userDTO)
+        {
+            var existingUser = await _userRepository.GetUserByPhoneNumberAsync(userDTO.PhoneNumber);
+            if (existingUser != null)
+            {
+                return true;
+            }
+
+            var user = new User
+            {
+                PhoneNumber = userDTO.PhoneNumber,
+                Name = userDTO.Name,
+                Surname = userDTO.Surname,
+                Password = userDTO.Password
+            };
+
+            await _userRepository.AddUserAsync(user);
+            return true;
         }
     }
 }

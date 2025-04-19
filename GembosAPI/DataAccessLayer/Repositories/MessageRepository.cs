@@ -28,7 +28,7 @@ namespace GembosAPI.DataAccessLayer.Repositories
             return await _context.Set<Message>().FindAsync(id);
         }
 
-        public async Task<IEnumerable<Message>> GetMessagesAsync(Guid senderId, Guid receiverId)
+        public async Task<IEnumerable<Message>> GetMessagesAsync(String senderId, String receiverId)
         {
             return await _context.Set<Message>()
                 .Where(m => (m.SenderID == senderId && m.ReceiverID == receiverId) ||
