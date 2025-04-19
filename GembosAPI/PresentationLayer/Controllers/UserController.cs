@@ -1,5 +1,6 @@
 ﻿using GembosAPI.BusinessLayer.ServiceInterfaces;
 using GembosAPI.EntityLayer.DTOs;
+using GembosAPI.EntityLayer.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -57,14 +58,27 @@ namespace GembosAPI.Controllers
         }
 
         [HttpPost("SyncUser")]
-        public async Task<IActionResult> SyncUser([FromBody] UserDTO userDto)
+        public async Task<IActionResult> SyncUser([FromBody] List<UserDTO> users)
         {
-            var success = await _userService.SyncUserAsync(userDto);
+            foreach (var userDto in users)
+            {
+                var success = await _userService.SyncUserAsync(userDto);
+                if (!success)
+                {
+                    //burada hatalı kullanıcıyı logla veya response'a ekle
+                    continue;
+                }
+            }
 
-            if (!success)
-                return BadRequest("User already exists or error occurred.");
+            return Ok("Users synced successfully.");
+        }
+    
 
-            return Ok("User synced successfully.");
+        [HttpGet("ping")]
+        [AllowAnonymous]
+        public IActionResult Ping()
+        {
+            return Ok("API çalışıyor");
         }
     }
 }

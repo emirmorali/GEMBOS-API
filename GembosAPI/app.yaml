@@ -1,0 +1,23 @@
+runtime: aspnetcore
+env: flex
+entrypoint: dotnet ./publish/GembosAPI.dll
+
+runtime_config:
+  operating_system: "ubuntu22"
+  dotnet_framework: "net8"
+
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 2
+
+resources:
+  cpu: 1
+  memory_gb: 1
+  disk_size_gb: 10
+
+env_variables:
+  ASPNETCORE_ENVIRONMENT: "Production"
+
+handlers:
+- url: /.*
+  script: auto
