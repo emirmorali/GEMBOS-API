@@ -1,13 +1,10 @@
-﻿using GembosAPI.EntityLayer.DTOs;
+﻿using GembosAPI.EntityLayer.Entities;
 
-namespace GembosAPI.BusinessLayer.ServiceInterfaces
+namespace GembosAPI.BusinessLayer.Abstract
 {
     public interface IMessageService
     {
-        Task SendMessageAsync(CreateMessageDTO createMessageDTO);
-        Task<MessageDTO> GetMessageByIdAsync(Guid id);
-        Task<IEnumerable<MessageDTO>> GetMessagesAsync(string senderId, string receiverId);
-        Task UpdateMessageAsync(UpdateMessageDTO updateMessageDTO);
-        Task DeleteMessageAsync(Guid id);
+        Task SaveMessageAsync(Message message);
+        Task SaveMessagesAsync(List<Message> messages);
     }
 }

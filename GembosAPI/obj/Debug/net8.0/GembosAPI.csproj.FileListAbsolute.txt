@@ -211,3 +211,13 @@ C:\Users\Mert\Documents\GitHub\GEMBOS\GembosAPI\bin\Debug\net8.0\publish\publish
 C:\Users\Mert\Documents\GitHub\GEMBOS\GembosAPI\bin\Debug\net8.0\publish\publish\publish\publish\publish\publish\publish\publish\appsettings.json
 C:\Users\Mert\Documents\GitHub\GEMBOS\GembosAPI\bin\Debug\net8.0\publish\publish\publish\publish\publish\publish\publish\publish\GembosAPI.deps.json
 C:\Users\Mert\Documents\GitHub\GEMBOS\GembosAPI\bin\Debug\net8.0\publish\publish\publish\publish\publish\publish\publish\publish\GembosAPI.runtimeconfig.json
+C:\Users\Mert\Documents\GitHub\GEMBOS\GembosAPI\bin\Debug\net8.0\publish\publish\publish\publish\publish\publish\publish\publish\publish\publish\web.config
+C:\Users\Mert\Documents\GitHub\GEMBOS\GembosAPI\bin\Debug\net8.0\publish\publish\publish\publish\publish\publish\publish\publish\publish\web.config
+C:\Users\Mert\Documents\GitHub\GEMBOS\GembosAPI\bin\Debug\net8.0\publish\publish\publish\publish\publish\publish\publish\publish\publish\appsettings.Development.json
+C:\Users\Mert\Documents\GitHub\GEMBOS\GembosAPI\bin\Debug\net8.0\publish\publish\publish\publish\publish\publish\publish\publish\publish\appsettings.json
+C:\Users\Mert\Documents\GitHub\GEMBOS\GembosAPI\bin\Debug\net8.0\publish\publish\publish\publish\publish\publish\publish\publish\publish\GembosAPI.deps.json
+C:\Users\Mert\Documents\GitHub\GEMBOS\GembosAPI\bin\Debug\net8.0\publish\publish\publish\publish\publish\publish\publish\publish\publish\GembosAPI.runtimeconfig.json
+C:\Users\Mert\Documents\GitHub\GEMBOS\GembosAPI\bin\Debug\net8.0\publish\publish\publish\publish\publish\publish\publish\publish\publish\publish\appsettings.Development.json
+C:\Users\Mert\Documents\GitHub\GEMBOS\GembosAPI\bin\Debug\net8.0\publish\publish\publish\publish\publish\publish\publish\publish\publish\publish\appsettings.json
+C:\Users\Mert\Documents\GitHub\GEMBOS\GembosAPI\bin\Debug\net8.0\publish\publish\publish\publish\publish\publish\publish\publish\publish\publish\GembosAPI.deps.json
+C:\Users\Mert\Documents\GitHub\GEMBOS\GembosAPI\bin\Debug\net8.0\publish\publish\publish\publish\publish\publish\publish\publish\publish\publish\GembosAPI.runtimeconfig.json

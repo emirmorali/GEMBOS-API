@@ -1,13 +1,10 @@
 ﻿using GembosAPI.EntityLayer.Entities;
 
-namespace GembosAPI.DataAccessLayer.RepositoryInterfaces
+namespace GembosAPI.DataAccessLayer.Abstract
 {
     public interface IMessageRepository
     {
-        Task SendMessageAsync(Message message);
-        Task<Message> GetMessageByIdAsync(Guid id);
-        Task<IEnumerable<Message>> GetMessagesAsync(String senderId, String receiverId);
-        Task UpdateMessageAsync(Message message);
-        Task DeleteMessageAsync(Guid id);
+        Task AddMessageAsync(Message message);
+        Task AddMessagesAsync(List<Message> messages);
     }
 }

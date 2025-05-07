@@ -1,9 +1,9 @@
-﻿using GembosAPI.DataAccessLayer.Contexts;
-using GembosAPI.DataAccessLayer.RepositoryInterfaces;
+﻿using GembosAPI.DataAccessLayer.Abstract;
+using GembosAPI.DataAccessLayer.Contexts;
 using GembosAPI.EntityLayer.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace GembosAPI.DataAccessLayer.Repositories
+namespace GembosAPI.DataAccessLayer.Concrete
 {
     public class MessageRepository : IMessageRepository
     {
@@ -13,39 +13,22 @@ namespace GembosAPI.DataAccessLayer.Repositories
         {
             _context = context;
         }
-        public async Task DeleteMessageAsync(Guid id)
-        {
-            var message = await GetMessageByIdAsync(id);
-            if (message != null)
-            {
-                _context.Set<Message>().Remove(message);
-                await _context.SaveChangesAsync();
-            }
-        }
 
-        public async Task<Message> GetMessageByIdAsync(Guid id)
+        public async Task AddMessageAsync(Message message)
         {
-            return await _context.Set<Message>().FindAsync(id);
-        }
-
-        public async Task<IEnumerable<Message>> GetMessagesAsync(String senderId, String receiverId)
-        {
-            return await _context.Set<Message>()
-                .Where(m => (m.SenderID == senderId && m.ReceiverID == receiverId) ||
-                      (m.SenderID == receiverId && m.ReceiverID == senderId))
-                .OrderBy(m => m.TimeStamp)
-                .ToListAsync();
-        }
-
-        public async Task SendMessageAsync(Message message)
-        {
-            await _context.Set<Message>().AddAsync(message);
+            message.IsSynced = true;
+            _context.Messages.Add(message);
             await _context.SaveChangesAsync();
         }
 
-        public async Task UpdateMessageAsync(Message message)
+        public async Task AddMessagesAsync(List<Message> messages)
         {
-            _context.Set<Message>().Update(message);
+            foreach (var message in messages)
+            {
+                message.IsSynced = true;
+            }
+
+            _context.Messages.AddRange(messages);
             await _context.SaveChangesAsync();
         }
     }
