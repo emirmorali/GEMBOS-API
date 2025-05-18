@@ -1,56 +1,39 @@
-﻿using GembosAPI.BusinessLayer.ServiceInterfaces;
+﻿using GembosAPI.BusinessLayer.Abstract;
 using GembosAPI.EntityLayer.DTOs;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace GembosAPI.PresentationLayer.Controllers
+namespace GembosAPI.Controllers
 {
-    [ApiController]
+    
     [Route("api/[controller]")]
+    [ApiController]
     public class MessageController : ControllerBase
     {
-        private readonly IMessageService _service;
+        private readonly IMessageService _messageService;
 
-        public MessageController(IMessageService service)
+        public MessageController(IMessageService messageService)
         {
-            _service = service;
+            _messageService = messageService;
         }
 
-        [HttpPost("SendMessage")]
-        public async Task<IActionResult> SendMessage(CreateMessageDTO createMessageDTO)
+        [HttpPost("SyncMultipleMessage")]
+        public async Task<IActionResult> AddMessages([FromBody] List<MessageDTO> messages)
         {
-            await _service.SendMessageAsync(createMessageDTO);
+
+            foreach (var dto in messages)
+            {
+               await _messageService.SaveMessagesAsync(dto);
+               
+            }
             return Ok();
         }
 
-        [HttpGet("GetMessageByID")]
-        public async Task<IActionResult> GetMessage(Guid id)
+        [HttpGet("ping")]
+        [AllowAnonymous]
+        public IActionResult Ping()
         {
-            var message = await _service.GetMessageByIdAsync(id);
-            if (message == null) return NotFound();
-            return Ok(message);
-        }
-
-        [HttpGet("GetAllMessages")]
-        public async Task<IActionResult> GetMessages(string senderId, string receiverId)
-        {
-            var messages = await _service.GetMessagesAsync(senderId, receiverId);
-            return Ok(messages);
-        }
-
-        [HttpPut("UpdateMessage")]
-        public async Task<IActionResult> UpdateMessage(UpdateMessageDTO updateMessageDTO)
-        {
-            await _service.UpdateMessageAsync(updateMessageDTO);
-            return Ok();
-        }
-
-        [HttpDelete("DeleteMessage")]
-        public async Task<IActionResult> DeleteMessage(Guid id)
-        {
-            await _service.DeleteMessageAsync(id);
-            return Ok();
+            return Ok("API çalışıyor");
         }
     }
 }
-

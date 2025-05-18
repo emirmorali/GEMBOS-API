@@ -1,16 +1,16 @@
-﻿namespace GembosAPI.EntityLayer.Entities
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace GembosAPI.EntityLayer.Entities
 {
     public class Message
     {
-        public Guid ID { get; set; }
+        [Key]
+        public int Id { get; set; }
+
+        public string Sender { get; set; }
         public string Body { get; set; }
+        public string Date { get; set; }
 
-        public String SenderID { get; set; }
-        public User Sender { get; set; }
-
-        public String ReceiverID { get; set; }
-        public User Receiver{ get; set; }
-
-        public DateTime TimeStamp { get; set; }
+        public bool IsSynced { get; set; } = true;
     }
 }

@@ -1,6 +1,10 @@
+using GembosAPI.BusinessLayer.Abstract;
+using GembosAPI.BusinessLayer.Concrete;
 using GembosAPI.BusinessLayer.ServiceInterfaces;
 using GembosAPI.BusinessLayer.Services;
 using GembosAPI.BusinessLayer.Settings;
+using GembosAPI.DataAccessLayer.Abstract;
+using GembosAPI.DataAccessLayer.Concrete;
 using GembosAPI.DataAccessLayer.Contexts;
 using GembosAPI.DataAccessLayer.Repositories;
 using GembosAPI.DataAccessLayer.RepositoryInterfaces;
@@ -28,8 +32,8 @@ builder.Services.Configure<EncryptionSettings>(
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
-builder.Services.AddScoped<IMessageService, MessageService>();
 builder.Services.AddScoped<IMessageRepository, MessageRepository>();
+builder.Services.AddScoped<IMessageService, MessageService>();
 
 builder.Services.AddSingleton<IAesCryptographyService, AesCryptographyService>();
 
@@ -80,3 +84,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+app.MapGet("/testping", () => "Working!");
+
