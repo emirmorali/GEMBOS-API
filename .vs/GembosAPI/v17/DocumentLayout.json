@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|c:\\users\\mert\\documents\\github\\gembos\\gembosapi\\businesslayer\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\businesslayer\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|c:\\users\\mert\\documents\\github\\gembos\\gembosapi\\dataaccesslayer\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\dataaccesslayer\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|c:\\users\\mert\\documents\\github\\gembos\\gembosapi\\presentationlayer\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\presentationlayer\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|c:\\users\\mert\\documents\\github\\gembos\\gembosapi\\entitylayer\\dtos\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\entitylayer\\dtos\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|c:\\users\\mert\\documents\\github\\gembos\\gembosapi\\entitylayer\\entities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\entitylayer\\entities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,12 +27,20 @@
       "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\entitylayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|c:\\users\\mert\\documents\\github\\gembos\\gembosapi\\presentationlayer\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\presentationlayer\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|c:\\users\\mert\\documents\\github\\gembos\\gembosapi\\presentationlayer\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\presentationlayer\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|c:\\users\\mert\\documents\\github\\gembos\\gembosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|c:\\users\\mert\\documents\\github\\gembos\\gembosapi\\gembosapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\gembosapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|c:\\users\\mert\\documents\\github\\gembos\\gembosapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C68C7851-E29B-4978-8728-8F4CBE2FFB7E}|GembosAPI\\GembosAPI.csproj|solutionrelative:gembosapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +50,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MessageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\DataAccessLayer\\Repositories\\MessageRepository.cs",
+              "RelativeDocumentMoniker": "GembosAPI\\DataAccessLayer\\Repositories\\MessageRepository.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\DataAccessLayer\\Repositories\\MessageRepository.cs",
+              "RelativeToolTip": "GembosAPI\\DataAccessLayer\\Repositories\\MessageRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:40:35.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MessageDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\EntityLayer\\DTOs\\MessageDTO.cs",
+              "RelativeDocumentMoniker": "GembosAPI\\EntityLayer\\DTOs\\MessageDTO.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\EntityLayer\\DTOs\\MessageDTO.cs",
+              "RelativeToolTip": "GembosAPI\\EntityLayer\\DTOs\\MessageDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:19:17.477Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -38,7 +88,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\EntityLayer\\Entities\\Message.cs",
+              "RelativeDocumentMoniker": "GembosAPI\\EntityLayer\\Entities\\Message.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\EntityLayer\\Entities\\Message.cs",
+              "RelativeToolTip": "GembosAPI\\EntityLayer\\Entities\\Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:35:23.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\EntityLayer\\Entities\\User.cs",
               "RelativeDocumentMoniker": "GembosAPI\\EntityLayer\\Entities\\User.cs",
@@ -46,33 +109,51 @@
               "RelativeToolTip": "GembosAPI\\EntityLayer\\Entities\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T12:17:05.88Z",
+              "WhenOpened": "2025-05-15T17:35:22.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Message.cs",
-              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\EntityLayer\\Entities\\Message.cs",
-              "RelativeDocumentMoniker": "GembosAPI\\EntityLayer\\Entities\\Message.cs",
-              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\EntityLayer\\Entities\\Message.cs",
-              "RelativeToolTip": "GembosAPI\\EntityLayer\\Entities\\Message.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "MessageService.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\BusinessLayer\\Services\\MessageService.cs",
+              "RelativeDocumentMoniker": "GembosAPI\\BusinessLayer\\Services\\MessageService.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\BusinessLayer\\Services\\MessageService.cs",
+              "RelativeToolTip": "GembosAPI\\BusinessLayer\\Services\\MessageService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T12:17:03.468Z",
+              "WhenOpened": "2025-05-14T19:19:33.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GembosAPI",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\GembosAPI.csproj",
+              "RelativeDocumentMoniker": "GembosAPI\\GembosAPI.csproj",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\GembosAPI.csproj",
+              "RelativeToolTip": "GembosAPI\\GembosAPI.csproj",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAYwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-14T18:19:02.246Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\PresentationLayer\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "GembosAPI\\PresentationLayer\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\PresentationLayer\\Controllers\\UserController.cs",
-              "RelativeToolTip": "GembosAPI\\PresentationLayer\\Controllers\\UserController.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\Program.cs",
+              "RelativeDocumentMoniker": "GembosAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\Program.cs",
+              "RelativeToolTip": "GembosAPI\\Program.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAkwE0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T12:03:09.975Z"
+              "WhenOpened": "2025-05-14T17:50:16.414Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -82,9 +163,34 @@
               "RelativeDocumentMoniker": "GembosAPI\\PresentationLayer\\Controllers\\MessageController.cs",
               "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\PresentationLayer\\Controllers\\MessageController.cs",
               "RelativeToolTip": "GembosAPI\\PresentationLayer\\Controllers\\MessageController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAzAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T12:02:14.341Z",
+              "WhenOpened": "2025-05-14T17:47:11.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "GembosAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\appsettings.json",
+              "RelativeToolTip": "GembosAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-14T17:50:38.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\PresentationLayer\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "GembosAPI\\PresentationLayer\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\GEMBOS\\GembosAPI\\PresentationLayer\\Controllers\\UserController.cs",
+              "RelativeToolTip": "GembosAPI\\PresentationLayer\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T17:49:25.828Z",
               "EditorCaption": ""
             }
           ]

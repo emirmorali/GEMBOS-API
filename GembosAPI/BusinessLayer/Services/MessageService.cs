@@ -1,5 +1,6 @@
 ﻿using GembosAPI.BusinessLayer.Abstract;
 using GembosAPI.DataAccessLayer.Abstract;
+using GembosAPI.EntityLayer.DTOs;
 using GembosAPI.EntityLayer.Entities;
 
 namespace GembosAPI.BusinessLayer.Concrete
@@ -13,14 +14,17 @@ namespace GembosAPI.BusinessLayer.Concrete
             _repository = repository;
         }
 
-        public async Task SaveMessageAsync(Message message)
+        public async Task SaveMessagesAsync(MessageDTO dto)
         {
-            await _repository.AddMessageAsync(message);
-        }
 
-        public async Task SaveMessagesAsync(List<Message> messages)
-        {
-            await _repository.AddMessagesAsync(messages);
+            var message = new Message
+            {
+                Sender = dto.Sender,
+                Body = dto.Body,
+                Date = dto.Date,
+                IsSynced = true
+            };
+            await _repository.AddMessagesAsync(message);
         }
     }
 }

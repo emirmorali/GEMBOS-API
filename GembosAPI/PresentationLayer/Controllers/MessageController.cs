@@ -1,11 +1,13 @@
 ﻿using GembosAPI.BusinessLayer.Abstract;
-using GembosAPI.EntityLayer.Entities;
+using GembosAPI.EntityLayer.DTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace GembosAPI.API.Controllers
+namespace GembosAPI.Controllers
 {
-    [ApiController]
+    
     [Route("api/[controller]")]
+    [ApiController]
     public class MessageController : ControllerBase
     {
         private readonly IMessageService _messageService;
@@ -15,18 +17,23 @@ namespace GembosAPI.API.Controllers
             _messageService = messageService;
         }
 
-        [HttpPost("SyncMessage")]
-        public async Task<IActionResult> AddMessage([FromBody] Message message)
+        [HttpPost("SyncMultipleMessage")]
+        public async Task<IActionResult> AddMessages([FromBody] List<MessageDTO> messages)
         {
-            await _messageService.SaveMessageAsync(message);
+
+            foreach (var dto in messages)
+            {
+               await _messageService.SaveMessagesAsync(dto);
+               
+            }
             return Ok();
         }
 
-        [HttpPost("SyncMultipleMessage")]
-        public async Task<IActionResult> AddMessages([FromBody] List<Message> messages)
+        [HttpGet("ping")]
+        [AllowAnonymous]
+        public IActionResult Ping()
         {
-            await _messageService.SaveMessagesAsync(messages);
-            return Ok();
+            return Ok("API çalışıyor");
         }
     }
 }

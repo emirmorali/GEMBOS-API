@@ -21,14 +21,9 @@ namespace GembosAPI.DataAccessLayer.Concrete
             await _context.SaveChangesAsync();
         }
 
-        public async Task AddMessagesAsync(List<Message> messages)
+        public async Task AddMessagesAsync(Message message)
         {
-            foreach (var message in messages)
-            {
-                message.IsSynced = true;
-            }
-
-            _context.Messages.AddRange(messages);
+            await _context.Messages.AddAsync(message);
             await _context.SaveChangesAsync();
         }
     }

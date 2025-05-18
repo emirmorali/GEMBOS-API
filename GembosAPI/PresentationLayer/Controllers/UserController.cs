@@ -1,8 +1,6 @@
 ﻿using GembosAPI.BusinessLayer.ServiceInterfaces;
 using GembosAPI.EntityLayer.DTOs;
-using GembosAPI.EntityLayer.Entities;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GembosAPI.Controllers
