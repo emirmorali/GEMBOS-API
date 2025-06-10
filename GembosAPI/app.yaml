@@ -1,3 +1,4 @@
+service: gembos  
 runtime: aspnetcore
 env: flex
 entrypoint: dotnet ./publish/GembosAPI.dll
