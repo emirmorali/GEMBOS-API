@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GembosAPI.Migrations
 {
     [DbContext(typeof(AppDbcontext))]
-    [Migration("20250504121726_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20250610222250_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
